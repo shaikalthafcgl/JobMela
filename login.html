@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<!-- Add Google Fonts Link -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+
+  /* Styling for the login container */
+  .login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(15, 8, 222, 0.779);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: auto; /* Move the login page title to the right */
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Make the form fill the container width */
+  }
+
+  input {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+  /* Align checkbox with the login button */
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust alignment */
+    width: 100%; /* Make the checkbox and label fill the container width */
+    margin: 10px 0; /* Add margin between checkbox and label */
+  }
+
+  .form-group label {
+    margin-left: 10px; /* Increase left margin */
+    width: 80%; /* Adjust the width of the label */
+  }
+
+  .form-group input[type="checkbox"] {
+    width: 20px; /* Adjust the width of the checkbox */
+  }
+
+  button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #4285F4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%; /* Make the button fill the container width */
+  }
+
+  .register-link {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  /* Styling for the vertical links */
+  .vertical-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vertical-links a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: #4285F4;
+  }
+
+  /* Google icon styles */
+  .material-icons {
+    font-size: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+</style>
+</head>
+<body>
+<div class="login-container">
+    <a href="/register">Register for free</a>    
+  <h1>Login</h1>
+   <form action="/login" method="post">
+    <input type="text" name="username" placeholder="Email ID / Username">
+    <input type="password" name="password" placeholder="Password">
+    <div class="form-group">
+      <input type="checkbox" name="remember_me" id="remember_me">
+      <label for="remember_me">Remember me</label>
+    </div>
+    <button type="submit">Login</button>
+  </form>
+  <div class="register-link">
+    <div class="vertical-links">
+      <a href="/login/otp">Use OTP to Login</a>
+      <a href="https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%2F" target="_blank"><i class="material-icons">g</i> Sign in with Google</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
