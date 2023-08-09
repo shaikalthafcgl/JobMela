@@ -1,6 +1,6 @@
 # JobMela: Empowering Employment Life Cycle with Autopilot System
 
-![JobMela Logo](https://drive.google.com/file/d/1F1KtG40ZMf8LR1JWnOQ8offHli-x9wzZ/view?usp=sharing)
+![JobMela Logo](https://drive.google.com/uc?export=view&id=1F1KtG40ZMf8LR1JWnOQ8offHli-x9wzZ)
 
 ## Introduction
 
@@ -50,7 +50,7 @@ For any inquiries, please contact [support@jobmela.com](mailto:support@jobmela.c
 ---
 
 _By the JobMela Team_
-![JobMela Logo](https://raw.githubusercontent.com/shaikalthafcgl/jobmela/main/logo.png?token=GHSAT0AAAAAACF5T4FHKO6KQIHSH32MZXXYZGTZWIQ)
+![JobMela Logo](https://drive.google.com/uc?export=view&id=1F1KtG40ZMf8LR1JWnOQ8offHli-x9wzZ)
 
 ## License
 
