@@ -1,5 +1,5 @@
 JobMela: Empowering Employment Life Cycle with Autopilot System
-JobMela Logo
+https://raw.githubusercontent.com/shaikalthafcgl/jobmela/main/logo.png?token=GHSAT0AAAAAACF5T4FHKO6KQIHSH32MZXXYZGTZWIQ
 
 Introduction
 JobMela is an innovative platform designed to streamline the employment journey, bridging the gap between jobseekers, students, and employers. Our mission is to transform joblessness into meaningful employment, and students into professionals.
