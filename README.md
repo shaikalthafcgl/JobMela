@@ -43,7 +43,7 @@ JobMela is an innovative platform designed to streamline the employment journey,
 
 ## Get Started
 
-Visit [JobMela](https://your-jobmela-url.com) to explore the platform and take charge of your employment journey.
+Visit [JobMela](https://jobmela.w3spaces.com/index.html) to explore the platform and take charge of your employment journey.
 
 For any inquiries, please contact [support@jobmela.com](mailto:support@jobmela.com).
 
